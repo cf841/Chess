@@ -1,0 +1,17 @@
+For all potential moves:
+    Piece cost per side
+    How many moves king has
+    How many pieces pinned to smth more valuable 
+    How many pieces protected ( How many hanging)
+    How many pieces attacking (Multiplying for lower -> higher cost piece, and more pieces on same target)
+    Can you put king in check?
+
+    Consider your eval, and enemy eval. (3 depth? 2 moves us, one move enemy, presuming enemy makes best move?)
+
+
+Main game:
+    Doing all the cheks was no unessecarily complicated,
+    gone with just checking all possible moves each time. Shouldn't really be that bad.
+    In the worst case (out of bounds of reality), around 700 checks. Will ALWAYS be lower
+
+    Change to use FEN
