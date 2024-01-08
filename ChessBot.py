@@ -18,7 +18,7 @@ screen.blit(board, (0, 0))
 pygame.display.flip()
 
 
-first = Game()
+first = Game( )
 first.display()
 
 playing = True
